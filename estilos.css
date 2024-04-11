@@ -2,6 +2,7 @@
 /* CSS Document */
 
 /*CREO QUE NO ESTA TAN BIEN ORDENADO O PODRIA SER MEJOR*/
+/* Podría estar mejor, hay algunos selectores o propiedades que se repiten que podrías agrupar */
 
 *{
 	margin: 10px;
@@ -36,10 +37,11 @@
 	font-style: normal;
 }
 
+/* Fijate que escribiste il en vez de li, así que no se están aplicando estos cambios en ningún lado */
 .ul-nav .il-nav{
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin: 0; /* Es necesario el margin: 0 si después lo cambias más abajo? */
 }
 
 .ul-nav .il-nav{
