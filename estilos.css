@@ -1,11 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*CREO QUE NO ESTA TAN BIEN ORDENADO O PODRIA SER MEJOR*/
-
 *{
-	margin: 10px;
+	margin: 0px;
 	padding: 0px;
+	background-color: lightcyan;  /* Cuando puse un background-color en todo, en el footer me cambio el color de relleno que elegi, quedo un trazo, como se soluciona eso?*/
 }
 
 @font-face {
@@ -36,99 +35,131 @@
 	font-style: normal;
 }
 
-.ul-nav .il-nav{
-	list-style: none;
-	padding: 0;
-	margin: 0;
+
+h2{
+	font-family: "Gotham-Condensed-Bold", "sans-serif";
+	font-size: 35px;
+	color: black;
+	text-transform: uppercase;	
 }
 
-.ul-nav .il-nav{
+
+.menu-navegador{
+	list-style: none;
 	width: 1260px;
 	height: 50px;
-	margin: 10px 0px 10px 0px;
+	margin: 10px 0px 60px 0px;
 	padding: 0px;
-	background-color: black;
+	background-color: transparent;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-content: baseline;
-}
-
-.ul-nav .li-nav{
 	font-family: "Gotham-Pro-Regular" , "sans-serif";
 	font-size: 15px;
 	text-transform: uppercase
 }
+	
+	.a-nav{
+		height: 50px;
+		width: 170px;
+		text-decoration: none;
+		color: black;
+		background-color: transparent;
+		border-width: 2px;
+		border-style: solid;
+		border-color: black;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
 
-.a-nav{
-	height: 50px;
-	width: 170px;
-	text-decoration: none;
+	.li-nav{
+		height: 50px;
+		width: 170px;
+		text-align: center;
+		background-color: transparent;
+		flex-basis: 0;
+		display: inline-block;
+		margin: 20px; 
+	}
+
+
+.seccion-sobre-mi{
+	padding: 15px 60px 15px 60px;
+}
+	#foto-titulo-id{
+		display: flex;
+		flex-direction: row;
+		align-self: flex-start;
+		padding: 0px 60px 15px 0px; 
+		font-family: "Gotham-Condensed-Bold", "sans-serif";
+		font-size: 90px;
+		color: black;
+		text-transform: uppercase
+	}
+	#texto-sobre-mi-id{
+		padding: 15px 0px 15px 0px;
+		font-family: "Gotham-Pro-Regular", "sans-serif";
+		font-size: 15px;
+		color: black;
+	}
+
+
+.seccion-skills{
+	display: flex;
+	flex-direction: row;
+	padding: 15px 60px 15px 90px;
+	font-family: "Gotham-Pro-Regular", "sans-serif";
+	font-size: 15px;
 	color: black;
-	background-color: transparent;
-	border-width: 2px;
-	border-style: solid;
-	border-color: black;
+	list-style-type: disc;
+}
+
+
+.seccion-estudios{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	padding: 15px 60px 15px 60px;
+	font-family: "Gotham-Pro-Regular", "sans-serif";
+	font-size: 15px;
+	color:black;
+	list-style: none;
 }
 
-.li-nav{
-	height: 50px;
-	width: 170px;
-	text-align: center;
-	background-color: transparent;
-	flex-basis: 0;
-	display: inline-block;
-	margin: 20px; 
-}
 
-h1{
-	font-family: "Gotham-Condensed-Bold", "sans-serif";
-	font-size: 100px;
-	color: black;
-	text-transform: uppercase
+.seccion-contacto{
+	padding: 40px;
 }
+	#titulo-contacto-id{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding-bottom: 15px;
+	}
+	#redes-sociales-id{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		font-family: "Gotham-Pro-Regular", "sans-serif";
+		font-size: 15px;
+		color: black;
+	}
 
-h2{
-	font-family: "Gotham-Condensed-Light", "sans-serif";
-	font-size: 40px;
-	color: black;
-	text-transform: uppercase
-}
 
-h3{
-	font-family: "Gotham-Condensed-Light", "sans-serif";
-	font-size: 30px;
-	color: black;
-	text-transform: uppercase
-}
-
-p{
+.footer{
+	padding: 5px;
+	background-color: salmon;
 	font-family: "Gotham-Pro-Regular", "sans-serif";
 	font-size: 15px;
 	color: black;
 }
 
-ul{
-	font-family: "Gotham-Pro-Regular", "sans-serif";
-	font-size: 15px;
-	color: black;
-	list-style-type: circle
-}
 
-dl{
-	font-family: "Gotham-Pro-Regular", "sans-serif";
-	font-size: 15px;
-	color: black;
-}
 
-dt{
-	font-family: "Gotham-Pro-Bold", "sans-serif";
-}
 
-dd{
-	padding-left: 20px;
-}
+
+
+
+
 
