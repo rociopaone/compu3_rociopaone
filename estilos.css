@@ -5,6 +5,7 @@
 	margin: 0px;
 	padding: 0px;
 	background-color: lightcyan;  /* Cuando puse un background-color en todo, en el footer me cambio el color de relleno que elegi, quedo un trazo, como se soluciona eso?*/
+	/*En vez de ponerle acá background-color a rodo el html, aplicalo sobre el body. Lo que hace este selector * es que te pone cada propiedad sobre absolutamente todas las etiquetas porque lo pone sobre el html en sí, así que a veces pueden surgir este tipo de cosas cuando les ponemos propiedades como background-color*/
 }
 
 @font-face {
@@ -46,6 +47,7 @@ h2{
 
 .menu-navegador{
 	list-style: none;
+	/*Intenta evitar poner anchos o alturas fijas, porque tiende a verse mal cuando pasamos a otra pantalla que no es la propia*/
 	width: 1260px;
 	height: 50px;
 	margin: 10px 0px 60px 0px;
