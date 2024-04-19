@@ -4,8 +4,8 @@
 
 /*ESTILO DEL HTML*/
 *{
-	margin: 0px;
-	padding: 5px;
+	margin: 5px;
+	padding: 0px;
 }
 
 
@@ -17,8 +17,9 @@ body{
 
 h1{
 	font-family: "Gotham-Condensed-Light", "sans-serif";
-	font-size: 35px;
+	font-size: 50px;
 	text-transform: uppercase;
+	color: #030002;
 }
 
 
@@ -54,16 +55,16 @@ h1{
 
 /*ESTILO DEL MENU NAVEGADOR*/
 .menu-navegador{
+	margin-top: 20px;
 	list-style: none;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-around;
 	font-family: "Gotham-Condensed-Bold", "sans-serif";
 	font-size: 30px;
 	text-transform: uppercase;
 	background-color: transparent;
 	cursor: pointer;
-	flex-grow: 0;
 }
 	
 .a-nav{
@@ -103,10 +104,10 @@ h1{
 
 
 /*ESTILO DE SECCION SKILLS + SOFTWARE Y SECCION ESTUDIOS (LOS H1 ESTAN ARRIBA DE TODO)*/
-.seccion-skills-software, .seccion-estudios{
-	padding: 0px 60px 0px 60px;
+.seccion-skills, .seccion-software, .seccion-estudios{
+	padding: 30px 60px 30px 60px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: flex-start;
 }
 
@@ -114,46 +115,19 @@ h1{
 	font-family: "Gotham-Pro-Regular", "sans-serif";
 	font-size: 15px;
 	color: #030002;
-	list-style-type: circle;
+	list-style-type: none;
 }
-
-
-/*ESTILO DE SECCION CONTACTO*/
-#redes-sociales-id{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	color: #030002;
-}
-
-#linkeo-wpp-id, #linkeo-ig-id, #linkeo-email-id{
-	font-family: "Gotham-Pro-Bold", "sans-serif";
-	font-size: 10px;
-	color: #030002;
-	text-transform: lowercase;
-	text-decoration: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*ESTILO DEL FOOTER*/
 .footer{
-	padding: 5px;
-	background-color: salmon;
-	font-family: "Gotham-Pro-Regular", "sans-serif";
-	font-size: 15px;
-	color: black;
+	margin-top: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: transparent;
+	font-family: "Gotham-Condensed-Bold", "sans-serif";
+	font-size: 30px;
+	color: #f63938;
+	text-transform: uppercase;
 }
-
-
