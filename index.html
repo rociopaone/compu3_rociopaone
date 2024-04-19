@@ -4,32 +4,30 @@
 <meta charset="utf-8">
 <title>Rocio Paone — Mi CV</title>
 	<link href="estilos.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="img/emojis/teddy-bear.png" type="image/x-icon" sizes= "16x16">
 </head>
 
 <body>
 	<header>
+		<!--NAVEGADOR CON BOTONES-->
 		<nav class="menu-navegador">
-			<ul id="navegador-id">
-				<li class="li-nav"><a class="a-nav" href="index.html">Inicio</a></li>
-				<li class="li-nav"><a class="a-nav" href="seccion-sobre-mi">Sobre mi</a></li>
-				<li class="li-nav"><a class="a-nav" href="seccion-skills">Skills</a></li>
-				<li class="li-nav"><a class="a-nav" href="seccion-estudios">Estudios</a></li>
-				<li class="li-nav"><a class="a-nav" href="seccion-contacto">Contacto</a></li>
+			<ul>
+				<li class="li-nav"><a class="a-nav" href="#texto-sobre-mi-id">Sobre mi</a></li>
+				<li class="li-nav"><a class="a-nav" href="#titulo-skills-id">Skills</a></li>
+				<li class="li-nav"><a class="a-nav" href="#titulo-estudios-id">Estudios</a></li>
+				<li class="li-nav"><a class="a-nav" href="#redes-sociales-id">Contacto</a></li>
 			</ul>
 		</nav>
 	</header>
 	<main>
+		<!--SECCION PRINCIPAL CON FOTO Y TEXTO GRANDE EN GOTHAM CONDENSED-->
 		<section class="seccion-sobre-mi">
-			<header id="foto-titulo-id">
-				<h1>Rocio Paone — Mi CV</h1>
-				<img src="img/paone_rocio.jpg" width="500px" height="500px" alt="Foto de Rocio Paone">
-			</header>
-			<p id="texto-sobre-mi-id">¡Hola! Me llamo Rocio, pero prefiero que me digan Ro. Tengo 22 años y me encanta poder crear y materializar ideas. Siempre busco desafiar mis l&iacute;mites y expandir mis habilidades. Estoy ansiosa por contribuir con mi creatividad y determinaci&oacute;n a nuevos proyectos y equipos.</p>
+			<div id="foto-principal-id"> <img src="img/PRINCIPAL 2.png" sizes="1%" alt="Foto de Rocio Paone con emojis variados alrededor"> </div>
+			<p id="texto-sobre-mi-id">Me llamo Ro — Tengo 22 años y me encanta crear y materializar ideas (y los emojis)</p>
 		</section>
-		
-		
-		<section class="seccion-skills">
-			<header id="titulo-skills-id"><h2>Skills</h2></header>
+		<!--SECCION DE SKILLS CON LISTA DETALLADA + SOFTWARE-->
+		<section class="seccion-skills-software"> 
+			<div id="titulo-skills-id"> <h1> Skills </h1> </div>
 				<ul id="lista-skills-id">
 					<li>Ingl&eacute;s (Intermedio)</li>
 					<li>Proactiva</li>
@@ -42,7 +40,7 @@
 					<li>Edici&oacute;n de video</li>
 					<li>Ilustraci&oacute;n</li>
 				</ul>
-			<header id="titulo-software-id"><h2>Software</h2></header>
+			<div id="titulo-software-id"> <h1>Software</h1> </div>
 				<ul id="lista-software-id">
 					<li>Adobe Photoshop</li>
 					<li>Adobe Illustrator</li>
@@ -50,10 +48,9 @@
 					<li>Adobe Premiere Rush</li>			
 				</ul>
 	  	</section>
-		
-		
+		<!--SECCION DE MIS ESTUDIOS CON LINEA DE TEXTO-->
 		<section class="seccion-estudios">
-			<h2 id="titulo-estudios-id">Estudios</h2>
+			<h1 id="titulo-estudios-id">Estudios</h1>
 			<ul id="lista-estudios-id">
 				<li>Bachiller en Comunicaci&oacute;n — Colegio Colinas Verdes (2013-2019)</li>
 				<li>Licenciatura en Dise&ntilde;o y Comunicaci&oacute;n Visual — Universidad Nacional de Lan&uacute;s (2020-actualidad)</li>
@@ -62,20 +59,34 @@
 	  	</section>
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		<!--SECCION DE CONTACTO-->
 		<section class="seccion-contacto">
-			<header id="titulo-contacto-id"><h2>Contacto</h2></header>
-			<article id="redes-sociales-id">
-				<img src="img/whatsapp.png" width="20px" height="20px" alt="Logo WhatsApp">
-				<h4>1521842618</h4>
-				<img src="img/instagram.png" width="20px" height="20px" alt="Logo Instagram">
-				<h4> @ropaone_</h4>
-				<img src="img/correo negro.png" width="20px" height="20px" alt="Logo Correo">
-				<h4> ropaone28@gmail.com</h4>
-				<img src="img/behance.png" width="20px" height="20px" alt="Logo Behance">
-				<h4> @ropaone_</h4>
-			</article>
+			<div id="redes-sociales-id">
+				<a id="linkeo-wpp-id" href="https://wa.link/867qyu" target="_blank"><img src="img/whatsapp.png" width="20px" height="20px" alt="Logo WhatsApp"> <h2>1121842618</h2></a>
+				<a id="linkeo-ig-id" href="https://www.instagram.com/ropaone_/" target="_blank"><img src="img/instagram.png" width="20px" height="20px" alt="Logo Instagram"><h2>@ropaone</h2></a>
+				<a id="linkeo-email-id" href="ropaone28@gmail.com" target="_blank"><img src="img/correo negro.png" width="20px" height="20px" alt="Logo Correo"> <h2>ropaone28@gmail.com</h2></a>
+			</div>
 		</section>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	</main>
+	<!--FOOTER CON INFO DE QUE ES PROYECTO DE CATEDRA-->
 	<footer class="footer">
 		<p> Curr&iacute;culum de Rocio Paone — Computaci&oacute;n III 2024</p>
 	</footer>
